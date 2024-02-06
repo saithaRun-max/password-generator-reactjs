@@ -2,8 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
+import Caluclate from './Caluclate'
 
-import GeneratePassword from './GeneratePassword'
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <GeneratePassword />
+      <Caluclate/>
        
     </>
   )
